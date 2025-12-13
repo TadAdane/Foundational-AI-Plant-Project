@@ -88,7 +88,7 @@ This dataset is ideal for a proof-of-concept as it contains over **54,000 images
 **Sample Data:**
 Below is a sample of the dataset showing various healthy and diseased classes:
 
-<img src="images/Plant_Disease_Classes.jpg" width="600">
+<img src="Images/Plant_Disease_Classes.jpg" width="600">
 
 ### 🤖 AI Domain & Type
 * **AI Domain:** This project belongs to the subfield of **Computer Vision (CV)**, as the AI must learn to interpret and understand visual information from images.
@@ -174,7 +174,7 @@ The model's performance on this testing set is the true measure of its success.
 ### Training Performance
 The model was trained for 10 epochs. The graph below shows the **Training vs. Validation Accuracy** and **Loss**. The convergence of the training and validation lines indicates a well-generalized model with minimal overfitting.
 
-<img src="images/training_graph.png" width="600">
+<img src="Images/training_graph.png" width="600">
 
 * **Final Test Accuracy:** **85.09%**
 * **Training Time:** ~15 minutes on NVIDIA T4 GPU (Google Colab).
@@ -185,7 +185,7 @@ The table below demonstrates the model's performance on unseen images.
 
 | Input Image (Leaf) | Model Prediction & Confidence | Status |
 |--------------------|-------------------------------|--------|
-| <img src="Results/Test_images/Apple_Black_rot_correct.jpg" width="350"> | <img src="Results/Detections/image_1.png" width="350"> | ✅ Success |
+| <img src="Results/Test_images/Apple_Black_rot_correct.JPG" width="350"> | <img src="Results/Detections/image_1.png" width="350"> | ✅ Success |
 | <img src="Results/Test_images/Tomato_Target_Spot_Correct.jpg" width="350"> | <img src="Results/Detections/image_2.png" width="350"> | ✅ Success |
 | <img src="Results/Test_images/Applescab-4-700x500-1_(Real-World).jpg" width="350">| <img src="Results/Detections/image_4.png" width="350"> | ⚠️ Low Confidence (Ambiguous) |
 | <img src="Results/Test_images/Tomato_Target_spot_wrong_(Uncertainity).jpg" width="350"> | <img src="Results/Detections/image_3.png" width="350"> | ❌ Wrong Detection (Uncleaned image) |
