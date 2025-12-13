@@ -88,7 +88,7 @@ This dataset is ideal for a proof-of-concept as it contains over **54,000 images
 **Sample Data:**
 Below is a sample of the dataset showing various healthy and diseased classes:
 
-<img src="Images/Plant_Disease_Classes.jpg" width="600">
+<img src="Images/Plant_Disease_Classes.png" width="600">
 
 ### 🤖 AI Domain & Type
 * **AI Domain:** This project belongs to the subfield of **Computer Vision (CV)**, as the AI must learn to interpret and understand visual information from images.
@@ -179,6 +179,11 @@ The model was trained for 10 epochs. The graph below shows the **Training vs. Va
 * **Final Test Accuracy:** **85.09%**
 * **Training Time:** ~15 minutes on NVIDIA T4 GPU (Google Colab).
 
+**Key Observations:**
+* **Rapid Learning (Epochs 0-3):** The model quickly learned the primary features of the leaves, with accuracy jumping from ~57% to ~80% in the first few epochs.
+* **Convergence (Epochs 8-10):** By epoch 8, the accuracy stabilizes, indicating that the model has learned as much as it can from the current data. There for 10 epochs was chosen as optimal training duration to avoid wasting computational resources.
+* **Generalization:** The Validation Accuracy (Orange line) tracks closely with, and essentially matches, the Training Accuracy (Blue line). This is a shows that the model is **generalized** and not simply memorizing the training data (overfitting).
+
 ### 📸 **Input vs Output Comparison**
 
 The table below demonstrates the model's performance on unseen images.
@@ -186,9 +191,9 @@ The table below demonstrates the model's performance on unseen images.
 | Input Image (Leaf) | Model Prediction & Confidence | Status |
 |--------------------|-------------------------------|--------|
 | <img src="Results/Test_images/Apple_Black_rot_correct.JPG" width="350"> | <img src="Results/Detections/image_1.png" width="350"> | ✅ Success |
-| <img src="Results/Test_images/Tomato_Target_Spot_Correct.jpg" width="350"> | <img src="Results/Detections/image_2.png" width="350"> | ✅ Success |
+| <img src="Results/Test_images/Tomato_Target_Spot_Correct.JPG" width="350"> | <img src="Results/Detections/image_2.png" width="350"> | ✅ Success |
 | <img src="Results/Test_images/Applescab-4-700x500-1_(Real-World).jpg" width="350">| <img src="Results/Detections/image_4.png" width="350"> | ⚠️ Low Confidence (Ambiguous) |
-| <img src="Results/Test_images/Tomato_Target_spot_wrong_(Uncertainity).jpg" width="350"> | <img src="Results/Detections/image_3.png" width="350"> | ❌ Wrong Detection (Uncleaned image) |
+| <img src="Results/Test_images/Tomato_Target_spot_wrong_(Uncertainity).JPG" width="350"> | <img src="Results/Detections/image_3.png" width="350"> | ❌ Wrong Detection (Uncleaned image) |
 | <img src="Results/Test_images/Rose_Mosaic.jpg" width="350"> | <img src="Results/Detections/image_5.png" width="350"> | ❌ Wrong Detection (Unlearned Disease) |
 > *Note:* 
 
