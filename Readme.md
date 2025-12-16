@@ -59,7 +59,7 @@ If you want to replicate the training process:
 1. Open `FoundationalAI_Project.ipynb` in Google Colab.
 2. Ensure you have your `kaggle.json` API token ready.
 3. Run the notebook from top to bottom. It will:
-   - Download the **PlantVillage** dataset.
+   - Download the **[PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease)** from Kaggle.
    - Split the data (60% Train / 20% Val / 20% Test).
    - Fine-tune MobileNetV2.
    - Save the new model.
