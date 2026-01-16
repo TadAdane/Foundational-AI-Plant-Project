@@ -190,11 +190,11 @@ The table below demonstrates the model's performance on unseen images.
 
 | Input Image (Leaf) | Model Prediction & Confidence | Status |
 |--------------------|-------------------------------|--------|
-| <img src="Results/Test_images/Apple_Black_rot_correct.jpg" width="350"> | <img src="Results/Detections/image_1.png" width="350"> | ✅ Success |
-| <img src="Results/Test_images/Tomato_Target_Spot_Correct.jpg" width="350"> | <img src="Results/Detections/image_2.png" width="350"> | ✅ Success |
+| <img src="Results/Test_images/Apple_Black_rot_correct.JPG" width="350"> | <img src="Results/Detections/image_1.png" width="350"> | ✅ Success |
+| <img src="Results/Test_images/Tomato_Target_Spot_Correct.JPG" width="350"> | <img src="Results/Detections/image_2.png" width="350"> | ✅ Success |
 | <img src="Results/Test_images/Tomato_Target_spot_wrong_(Uncertainity).jpg"  width="350">| <img src="Results/Detections/image_4.png" width="350"> | ⚠️ Low Confidence (Ambiguous) |
 | <img src="Results/Test_images/Applescab-4-700x500-1_(Real-World).jpg" width="350"> | <img src="Results/Detections/image_3.png" width="350"> | ❌ Wrong Detection (Uncleaned image) |
-| <img src="Results/Test_images/Rose_Mosaic.jpg" width="350"> | <img src="Results/Detections/image_5.png" width="350"> | ❌ Wrong Detection (Unlearned Disease) |
+| <img src="Results/Test_images/Rose_Mosaic.JPG" width="350"> | <img src="Results/Detections/image_5.png" width="350"> | ❌ Wrong Detection (Unlearned Disease) |
 > *Note:* 
 
 > * The low confidence on ambiguous images demonstrates the model's ability to signal uncertainty rather than making false confident predictions.*
